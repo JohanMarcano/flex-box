@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #E8EBE4 ;
+  font-family: 'Roboto', 'Open Sans';
+}
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.contact-1{
+  display: flex;
+  flex-direction: row;
+  border: 0.5px #E8EBE4 solid;
+  align-items: center;
+  height: 7%;
+  padding: 20PX;
+  gap: 10PX;
+  justify-content: space-evenly;
+
+}
+
+.img-card-1{
+  height: 40px;
+  border-radius: 50%;
+}
+
+.contact-1 h4{
+  font-family: "Open Sans";
+  font-size: 14px;
+  color: black;
+}
+
+.contact-1 p{
+  color: #BEC1BB;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.contact-2{
+  display: flex;
+  flex-direction: row;
+  border: 0.5px #E8EBE4 solid;
+  align-items: center;
+  justify-content: center;
+  height: 13%;
+  padding-left: 20PX;
+  gap: 10PX;
+}
+
+.contact-2 button{
+  background-color: #A491D2 ;
+  height: 40px;
+  width: 150px;
+  border: 0;
+  color: #FFF
+
+}
+
+.contact{
+  display: flex;
+  flex-direction: row;
+  border: 0.5px #E8EBE4 solid;
+  align-items: center;
+  height: 10%;
+  padding-left: 25px;
+  gap: 15PX;
+}
+
+.contact h4{
+  font-size: 16px;
+  font-family: Open Sans;
+  font-weight: 700;
+  color: black;
+}
+
+.contact p{
+  font-size: 12px;
+  font-family: Open Sans;
+  font-weight: 600;
+  color: black;
+}
+
+.img-card{
+  height: 50px;
+  border-radius: 50%;
+}
+
+.contacts {
+  width: 40%;
+  height: 100vh;
+  background-color: #FFF;
+ }
+
+ .messages {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+ }
+
+.messages-img {
+  width: 15em;
+  border-radius: 5%;
+  margin-bottom: 20px;
+}
+
+.messages-text {
+  width: 450px;
+  align-content: center;
+  text-justify: center;
+  font-family: Open Sans;
+}
+
+.messages-text h2{
+  font-family: Open Sans;
+  font-size: 35px;
+  justify-content: center;
+  text-align: center;
+}
+
+.messages-text p{
+  text-align: center;
+  text-wrap: wrap;
+  
+}
